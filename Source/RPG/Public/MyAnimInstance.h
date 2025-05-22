@@ -7,10 +7,10 @@
 #include "MyAnimInstance.generated.h"
 
 
-//Declaration
-/**
- * 
- */
+//Declarations
+
+class AMyCharacter;
+
 UCLASS()
 class RPG_API UMyAnimInstance : public UAnimInstance
 {
@@ -19,7 +19,7 @@ class RPG_API UMyAnimInstance : public UAnimInstance
 public:
 	// used in animation blueprints
 	UFUNCTION(BlueprintCallable)
-	void updateAnimationProperties(float DeltaTime);
+	void UpdateAnimationProperties(float DeltaTime);
 
 	//We can initialize variables use them in blueprints
 	virtual void NativeInitializeAnimation() override;

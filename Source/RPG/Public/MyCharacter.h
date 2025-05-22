@@ -45,7 +45,9 @@ protected:
 	// Movement
 	void Move(const FInputActionValue& InputValue);
 	void Look(const FInputActionValue& InputValue);
-	void Jump(const FInputActionValue& InputValue);
+	void Jump();
+
+	
 	
 	
 
